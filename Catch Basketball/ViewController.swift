@@ -125,7 +125,7 @@ class ViewController: UIViewController {
             let ok = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { (UIAlertAction) in
                 for bball in self.bballArray {
                     bball.isUserInteractionEnabled = false
-                }
+                } 
                 })
             
             let replay = UIAlertAction(title: "Replay", style: UIAlertActionStyle.default,
